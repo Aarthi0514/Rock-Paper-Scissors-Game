@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK-PAPER-SCISSORS</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" type="Images" href="/Images/android-chrome-512x512.png">
+</head>
+<body>
+    <section>
+        <div class="container">
+                    <header>
+                        <h1>LET'S PLAY</h1>
+                        <h3>ROCK-PAPER-SCISSORS</h3>
+                    </header>
+                    <main>
+                        <div class="choices">
+                            <button onclick="playgame('Rock')">👊</button>
+                            <button onclick="playgame('Paper')">✋</button>
+                            <button onclick="playgame('Scissors')">✌️</button> 
+                        </div>
+                
+                    <div id="playerDisplay">PLAYER: </div>
+                    <div id="computerDisplay">COMPUTER: </div>
+                    <div id="resultDisplay"></div>
+                
+                    <div class="scoreDisplay">Player Score: 
+                        <span id="playerscoredisplay">0</span>
+                    </div>
+                
+                    <div class="scoreDisplay">Computer Score: 
+                        <span id="computerscoredisplay">0</span>
+                    </div> 
+        </div>
+    </section>
+
+</body>
+<script src="/js/script.js"></script>
+</html>

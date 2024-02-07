@@ -1,0 +1,100 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+h1{
+    font-size: 3rem;
+    color:rgb(123, 21, 139);
+    text-shadow: 4px 2px 9px rgba(180,75,189,0.57);  
+}
+
+h3{
+    font-size: 2rem;
+    color:rgb(41, 106, 203); 
+    font-weight: 900;
+}
+
+.choices {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.choices button {
+    margin: 10px;
+    font-size: 3rem;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: rgb(123, 21, 139);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+header {
+    text-align: center;
+}
+
+.choices {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.choices button {
+    margin: 10px;
+    font-size: 4.5rem;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: rgb(123, 21, 139);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.choices button:hover{
+    background-color: rgb(41, 97, 181);
+}
+
+#playerDisplay,#computerDisplay{
+    font-size: 2.5rem;
+}
+
+#resultDisplay{
+    font-size:50px;
+    margin: 25px 0;
+    text-align: center;
+}
+
+.scoreDisplay{
+    font-size: 2rem;
+}
+
+.greenText,#playerscoredisplay{
+    color: rgb(11, 179, 11);
+}
+.redText,#computerscoredisplay{
+    color: rgb(239, 12, 12);
+}
+
+.blueText{
+    color: rgb(41, 97, 181);
+}
